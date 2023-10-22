@@ -9,7 +9,7 @@ import Now from "./pages/now/page";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/aaronfolmer',
     element: <Home/>
   },
   {
