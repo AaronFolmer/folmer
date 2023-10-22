@@ -5,7 +5,7 @@ export function Header() {
     <section>
       <div className="flex flex-wrap items-center justify-between py-10">
         <h1>
-          <Link to="/">
+          <Link to="/folmer/">
             <a className="text-white">f/olmer</a>
           </Link>
         </h1>
