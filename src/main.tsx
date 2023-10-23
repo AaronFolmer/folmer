@@ -6,6 +6,9 @@ import "./styles/globals.css";
 import Home from "./__app";
 import About from "./pages/about/page";
 import Now from "./pages/now/page";
+import Books from "./pages/topics/books/page";
+import Hobbies from "./pages/topics/hobbies/page";
+import Learning from "./pages/topics/learning/page";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +22,18 @@ const router = createBrowserRouter([
   {
     path: '/now',
     element: <Now/>
+  },
+  {
+    path: '/topics/books',
+    element: <Books/>,
+  },
+  {
+    path: '/topics/hobbies',
+    element: <Hobbies/>,
+  },
+  {
+    path: '/topics/learning',
+    element: <Learning/>,
   }
 ])
 

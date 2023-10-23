@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Topics() {
   return (
     <>
@@ -13,7 +15,9 @@ export function Topics() {
               <div className="w-full">
                 <h2 className="flex flex-wrap gap-2">
                   <div>
-                    <a className="text-white underline">books</a>
+                    <Link to="/topics/books">
+                      <a className="text-white underline">books</a>
+                    </Link>
                   </div>
                   <div>
                     <a className="text-white underline">design</a>
@@ -22,7 +26,9 @@ export function Topics() {
                     <a className="text-white underline">habits</a>
                   </div>
                   <div>
-                    <a className="text-white underline">hobbies</a>
+                    <Link to="/topics/hobbies">
+                      <a className="text-white underline">hobbies</a>
+                    </Link>
                   </div>
                   <div>
                     <a className="text-white underline">startups</a>
@@ -34,7 +40,9 @@ export function Topics() {
                     <a className="text-white underline">simplism</a>
                   </div>
                   <div>
-                    <a className="text-white underline">learning</a>
+                    <Link to="/topics/learning">
+                      <a className="text-white underline">learning</a>
+                    </Link>
                   </div>
                 </h2>
               </div>

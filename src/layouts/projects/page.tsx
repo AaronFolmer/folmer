@@ -8,7 +8,7 @@ export function Projects() {
         {/* Content Area Starts */}
         <div className="flex flex-wrap gap-5 items-center">
           <div className="flex flex-col">
-            <ul>
+            <ul className="list-none">
               <li className="py-1">
                 <p className="text-[#A9A9A9]">2023-//-//</p>
               </li>
@@ -21,7 +21,7 @@ export function Projects() {
             </ul>
           </div>
           <div className="flex flex-col">
-            <ul>
+            <ul className="list-none">
               <li>
                 <h2 className="text-white">
                   <a href="#" target="__blank" className="underline">

@@ -5,7 +5,7 @@ import { Elsewhere } from "../../layouts/elsewhere/page";
 export default function About() {
   return (
     <html lang="en">
-      <body className="m-auto w-2/5">
+      <body className="m-auto px-10 lg:w-2/5 xl:w-2/5 sm:w-full">
         <div>
           {/* <!-- ===== Content Area Start ===== --> */}
           <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
