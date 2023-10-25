@@ -1,4 +1,5 @@
 import { Header } from "../../../layouts/header/__header";
+import { BooksComing } from "./books-coming/__books-coming";
 import { Link } from "react-router-dom";
 
 export default function Books() {
@@ -22,7 +23,7 @@ export default function Books() {
                     </h2>
                   </Link>
                   <h2 className="text-[#A9A9A9] mx-3">/</h2>
-                  <h2 className="text-white">Learning</h2>
+                  <h2 className="text-white">Books</h2>
                 </div>
                 <div>
                   <div className="text-[#A9A9A9]">
@@ -61,7 +62,7 @@ export default function Books() {
                       </ul>
                     </div>
                   </div>
-                  <hr className="my-5"/>
+                  <hr className="my-5" />
                   <div className="gap-5 flex flex-wrap">
                     <div className="w-1/2">
                       <ul className="text-[#A9A9A9]">
@@ -81,6 +82,10 @@ export default function Books() {
                 </section>
               </main>
               {/* <!-- ===== Main Content End ===== --> */}
+              {/* Books that ill read */}
+              <section>
+                <BooksComing />
+              </section>
             </div>
             {/* <!-- ===== Content Area End ===== --> */}
           </div>

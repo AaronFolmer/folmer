@@ -1,6 +1,7 @@
 import { Header } from "../../layouts/header/__header";
 import { AboutLayout } from "../../layouts/about/page";
 import { Elsewhere } from "../../layouts/elsewhere/page";
+import { Space } from "../../layouts/space/__space";
 
 export default function About() {
   return (
@@ -17,6 +18,9 @@ export default function About() {
             <main>
               <div>
                 <AboutLayout />
+              </div>
+              <div>
+                <Space />
               </div>
               <div>
                 <Elsewhere />

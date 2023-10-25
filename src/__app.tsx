@@ -6,7 +6,7 @@ import { Topics } from "./layouts/topics/page";
 export default function Home() {
   return (
     <html lang="en">
-      <body className="m-auto px-10 lg:w-2/5 xl:w-2/5 sm:w-full">
+      <body className="m-auto px-10 lg:w-2/5 xl:w-2/2 sm:w-full">
         <div>
           {/* <!-- ===== Content Area Start ===== --> */}
           <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">

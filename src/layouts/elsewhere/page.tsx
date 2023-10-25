@@ -45,7 +45,7 @@ export function Elsewhere() {
               </li>
               <li className="flex gap-1 items-center">
                 <p className="text-white">
-                  <a href="https://www.linkedin.com/in/aaron-folmer-a03bb419b/" target="__blank" className="underline">
+                  <a href="https://www.linkedin.com/in/aaronfolmer/" target="__blank" className="underline">
                     @aaron-folmer
                   </a>
                 </p>
