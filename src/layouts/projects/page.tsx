@@ -31,6 +31,13 @@ export function Projects() {
               </li>
               <li>
                 <h2 className="text-white">
+                  <a href="#" target="__blank" className="underline">
+                    m&lt;eet
+                  </a>
+                </h2>
+              </li>
+              <li>
+                <h2 className="text-white">
                   <a href="https://github.com/AaronFolmer/recipeai" target="__blank" className="underline">
                     RecipeAI
                   </a>
